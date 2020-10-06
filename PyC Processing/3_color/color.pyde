@@ -16,7 +16,7 @@ def draw():
     #############################################################################################################################"""
     
     ###Definimos el fondo, un solo paramtero es una escala de grises, 0 es negro, 255 es blanco, prueba cambiar el numero uno en este rango
-    background(255)
+    background(120)
     
     """#### Relleno
     #############################################################################################################################
@@ -32,7 +32,7 @@ def draw():
     
     #si usamos dos parametros, el segundo equivale a la opacidad
     fill(0,100)
-    text("Soy negro, con mi opaciodad disminuida",20,60)
+    text("Soy negro, con mi opacidad disminuida",20,60)
     
     
     #Podemos usar tres parametros para asignar escalas de rojo, verde y azul (R,G,B),
