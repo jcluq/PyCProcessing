@@ -36,9 +36,8 @@ def draw():
     #############################################################################################################################'''
 
     
-    color_de_X = map(mouseX, 0, width, 0, 255)
-    
-    color_de_Y = map(mouseY, 0, height, 0, 255)
+    color_de_X = map(mouseX, 0, height, 0, 255)
+    color_de_Y = map(mouseY, 0, width, 0, 255)
     
     
     #Estas nuevas variables son asignados al background y al fill del texto estatico
